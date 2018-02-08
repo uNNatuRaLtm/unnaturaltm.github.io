@@ -22,7 +22,7 @@ sass:
   style: compressed
 
 # Site Data
-url: http://sahil.science # the base hostname & protocol for your site, e.g. http://example.com
+url: https://unnaturaltm.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl:  # the subpath of your site, e.g. /blog
 title: Sahil's Science Adventures
 description: "You can always go to new places, at least in your head!"
