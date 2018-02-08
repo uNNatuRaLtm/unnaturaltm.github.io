@@ -50,7 +50,7 @@ author:
 home:
   section1: <h1>Hello, Awesome World!</h1>
   section2: <h2>Awe is my favourite emotion, and I catalog some of it <a href="#social">here</a>.</h2>
-  section3: <h3>*<em>Insert landing page hook here</em>* .. or have a look at my <a href="cv.html">CV</a>.</h3>
+  section3: <h3>*<em>Still under construction </em>* .. have a look at my <a href="/cv.html">CV</a>?</h3>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
