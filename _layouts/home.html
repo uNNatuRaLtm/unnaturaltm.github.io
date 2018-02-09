@@ -14,6 +14,7 @@
 </head>
 
 <body>
+	
     <ul id="menu">
         <li data-menuanchor="bio"><a href="#bio">Intro</a></li>
         <li data-menuanchor="social"><a href="#social">Explore</a></li>
@@ -26,6 +27,7 @@
         <div class="headings animated fadeInLeft">
             {% if site.home.section1 %}{{ site.home.section1 }}{% endif %}
             {% if site.home.section2 %}{{ site.home.section2 }}{% endif %}
+            
             {% if site.home.section3 %}{{ site.home.section3 }}{% endif %}
         </div>
         <a class="btn-continue animated bounce" title="{{ site.data.conf[site.lang].more }}" href="#social"></a>
@@ -35,6 +37,7 @@
         <h1 class="animated hidden">
             <a class="btn-enter btn-light" padding="10px" title="{{ site.data.conf[site.lang].enter_blog }}" href="{{ site.paths.blog | relative_url }}">{{ site.data.conf[site.lang].enter_blog }}</a>
         </h1>
+        <p style="margin-left:20%;margin-right:20%; text-shadow: 2px 2px #efe0e0;">{{ site.description }}</p>
         <div class="social-links animated hidden">
             <!-- <a class="btn-light ico-rss" href="{{ site.baseurl }}/feed.xml" rel="me" target="_blank" title="feed"></a> -->
             {% if site.author.email %}

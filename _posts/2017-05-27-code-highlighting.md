@@ -4,8 +4,7 @@ title: "A quick demo of Simple Texture theme's code highlighting features"
 description: "A quick demo of Simple Texture theme's code highlighting features"
 categories: [demo]
 tags: [demo, jekyll]
-redirect_from:
-  - /2017/05/27/
+author: "Not Me"
 ---
 
 > This is code blocks and highlighting test page for [Simple Texture][Simple Texture] theme.
@@ -15,7 +14,7 @@ redirect_from:
 
 # Code Spans
 
-This is a test for inline codeblocks like `C:/Ruby23-x64` or `SELECT  "offices".* FROM "offices" `
+This is a test for inline codeblocks like `/var/lib/Ruby23-x64` or `SELECT  "offices".* FROM "offices" `
 
 Here is a literal `` ` `` backtick.
 And here is a Ruby code fragment `x = Class.new`{:.language-ruby}

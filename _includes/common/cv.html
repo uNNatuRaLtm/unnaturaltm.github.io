@@ -1,0 +1,535 @@
+<head><link rel="stylesheet" type="text/css" href="assets/stylesheets/cv.css"></head>
+<body id="top">
+<style type="text/css">html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+display:block;
+}
+
+html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+
+.clear {clear: both;}
+
+#con{
+	font-size:10em; 
+	font-color:#3e3ee3;
+	margin:50px;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	color: #444;
+}
+ul,ol{
+	margin-top: -17px;
+}
+li {
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #444;
+
+}
+
+#cv {
+	width: 90%;
+	max-width: 800px;
+	background: #f3f3f3;
+	margin: 30px auto;
+}
+
+.mainDetails {
+	padding: 25px 35px;
+	border-bottom: 2px solid #cf8a05;
+	background: #ededed;
+}
+
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-top: 22px;
+	margin-bottom: -16px;
+	padding-bottom: 0px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+#headshot {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+#name {
+	float: left;
+}
+
+#contactDetails {
+	float: right;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+	color: #444;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	color: #444; 
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-ms-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+#contactDetails ul li a:hover { 
+	color: #cf8a05;
+}
+
+
+section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+}
+
+.sectionTitle {
+	float: left;
+	width: 25%;
+}
+
+.sectionContent {
+	float: right;
+	width: 72.5%;
+}
+
+.sectionTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: #cf8a05;
+}
+
+.sectionContent h2 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
+.subDetails {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-bottom: 3px;
+}
+
+.keySkills {
+	list-style-type: none;
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	column-count:3;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #444;
+}
+
+.keySkills ul li {
+	margin-bottom: 3px;
+}
+
+@media all and (min-width: 602px) and (max-width: 800px) {
+	#headshot {
+		display: none;
+	}
+	
+	.keySkills {
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+	}
+}
+
+@media all and (max-width: 601px) {
+	#cv {
+		width: 95%;
+		margin: 10px auto;
+		min-width: 280px;
+	}
+	
+	#headshot {
+		display: none;
+	}
+	
+	#name, #contactDetails {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.sectionTitle, .sectionContent {
+		float: none;
+		width: 100%;
+	}
+	
+	.sectionTitle {
+		margin-left: -2px;
+		font-size: 1.25em;
+	}
+	
+	.keySkills {
+		-moz-column-count:2;
+		-webkit-column-count:2;
+		column-count:2;
+	}
+}
+
+@media all and (max-width: 480px) {
+	.mainDetails {
+		padding: 15px 15px;
+	}
+	
+	section {
+		padding: 15px 0 0;
+	}
+	
+	#mainArea {
+		padding: 0 25px;
+	}
+
+	
+	.keySkills {
+	-moz-column-count:1;
+	-webkit-column-count:1;
+	column-count:1;
+	}
+	
+	#name h1 {
+		line-height: .8em;
+		margin-bottom: 4px;
+	}
+}
+
+@media print {
+    #cv {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@-moz-keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes reset {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.instaFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-timing-function: ease-in;
+	
+	-moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 1.5s;
+    -moz-animation-timing-function: ease-in;
+	
+	animation-name: reset, fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
+
+.quickFade {
+    -webkit-animation-name: reset, fade-in;
+    -webkit-animation-duration: 2.5s;
+    -webkit-animation-timing-function: ease-in;
+	
+	-moz-animation-name: reset, fade-in;
+    -moz-animation-duration: 2.5s;
+    -moz-animation-timing-function: ease-in;
+	
+	animation-name: reset, fade-in;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in;
+}
+ 
+.delayOne {
+	-webkit-animation-delay: 0, .5s;
+	-moz-animation-delay: 0, .5s;
+	animation-delay: 0, .5s;
+}
+
+.delayTwo {
+	-webkit-animation-delay: 0, 1s;
+	-moz-animation-delay: 0, 1s;
+	animation-delay: 0, 1s;
+}
+
+.delayThree {
+	-webkit-animation-delay: 0, 1.5s;
+	-moz-animation-delay: 0, 1.5s;
+	animation-delay: 0, 1.5s;
+}
+
+.delayFour {
+	-webkit-animation-delay: 0, 2s;
+	-moz-animation-delay: 0, 2s;
+	animation-delay: 0, 2s;
+}
+
+.delayFive {
+	-webkit-animation-delay: 0, 2.5s;
+	-moz-animation-delay: 0, 2.5s;
+	animation-delay: 0, 2.5s;
+}</style>
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Sahil Dawka</h1>
+<!-- 			<h2 class="quickFade delayThree">Graduate Student</h2>
+ -->		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>e: <a href="mailto:sahildawka@uvic.ca" target="_blank">sahildawka@uvic.ca</a></li>
+				<li>w: <a href="http://www.unnaturaltm.github.io">sahil.science</a></li>
+				<li>m: 250 686 6898</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Objective</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>Forward thinking engineering graduate student seeking work experience.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>University of Victoria </h2>
+					<p class="subDetails">M.Eng - Electrical Engineering</p>
+					<p>Currently pursuing a project based Masters degree in the Nanofabrication laboratory. Courses include Information theory, Reconfigurable Computing, Artificial Intelligence, Pattern Analysis, Materials and Energy (nano) technologies and Photovoltaics.</p>
+				</article>
+				
+				<article>
+					<h2>Amity University </h2>
+					<p class="subDetails">B.Tech - Nanotechnology</p>
+					<p>Gained knowledge of a variety of materials, fabrication and characterization techniques. Obtained a first class degree and completed various seminars and projects related to nanoscience.</p>
+				</article>
+				<article>
+					<h2>EdX.org </h2>
+					<p class="subDetails">Online Course Certificates</p>
+					<p>Quantum Mechanics and Quantum Computation (UC Berkeley), Embedded Systems (UT Austin), Cellular Mechanisms of Brain Function (EPFL), etc. Certificates available on request</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Digit Magazine — Writer (Freelance)</h2>
+					<p class="subDetails">Dec 2015 - Present</p>
+					<p>Created content on assignment for India’s largest technology magazine, with a readership of over 200,000. Researched and delivered print-ready articles on (very) short notice. Assigned cover story multiple times. </p>
+				</article>
+				
+				
+				<article>
+					<h2>University of Victoria — Tutor + TA</h2>
+					<p class="subDetails">September 2017 - Present</p>
+					<p>Marker TA for ELEC 216, Lab TA for ELEC 320 and registered tutor with the Learning Assistance Program at the Centre for Academic Learning. Taught students and communicated concepts concisely and creatively.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Resilience</li>
+					<li>Communication</li>
+					<li>Rapid Learning</li>
+					<li>Python</li>
+					<li>VHDL</li>
+					<li>JavaScript</li>
+					<li>Lean Thinking</li>
+					<li>Research</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Projects</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Amity University</h2>
+					<p class="subDetails">Band Structure of Nanoribbons</p>
+					<p>Calculated band stuctures and density of states of Graphene and hexagonal Boron-Nitride nanoribbons of varying widths. Used an implementation of Density Functional Theory with Tight Binding approximation.</p>
+				</article>
+				
+				<article>
+					<h2>Indian Institute of Technology, Guwahati</h2>
+					<p class="subDetails">Organic Electronics</p>
+					<p>Fabricated working organic field effect transistors using a novel biomaterial during a summer internship. Ganied experience using Molecular Beam Evaporator, Vacuum pumps, Spin Coater, UV-vis Spectrometer, Keithley 4200 Semiconductor Characterization System, Janis Probe station, etc</p>
+				</article>
+				<article>
+					<h2>University of Victoria</h2>
+					<p class="subDetails">Course projects</p>
+					<p><ol><li>Conducted a literature survey of various quantum machine learning algorithms and assessed their viability.</li><li>Implemented and compared performance of various 32-bit Carry Lookahead Adders on a Xilinx FPGA.</li></ol></p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section>
+			<div class="sectionTitle">
+				<h1>Extra Curricular</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Professional Development</h2>
+					<p class="subDetails">Conferences and Certificates</p>
+					<p><ul><li>International Conference on Advances in Nanotechnology, 2017</li>
+						<li>OHSE Laboratory Safety certification</li><li>Workshops organized by Division of Learning and Teaching Support and Innovation</li><li>MITACS workshop on Entrepreneurship</li></ul></p>
+				</article>
+				
+				<article>
+					<h2>Volunteering</h2>
+					<p class="subDetails">Ashadeep, Guwahati</p>
+					<p>Ashadeep is an NGO in my hometown that works for mentally challenged members of society. They run a day-care for children, and a shelter for rehabilitation of homeless men and women.</p>
+				</article>
+				<article>
+					<h2>Outdoors</h2>
+					<p class="subDetails">Sports & Adventure</p>
+					<p><ul><li>North-East Show Jumping Championship - 1st place (Junior)</li><li>Basic Mountaineering Course from the National Institute of Mountaineering and Allied Sports</li></ul></p>
+				</article>
+			</div>
+			<div class="clear"></div><h2>References available on request.</h2>
+		</section>
+	</div>
+</div>
+
+
+</body>

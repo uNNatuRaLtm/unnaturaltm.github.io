@@ -24,8 +24,9 @@ sass:
 # Site Data
 url: https://unnaturaltm.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl:  # the subpath of your site, e.g. /blog
-title: Sahil's Science Adventures
-description: "You can always go to new places, at least in your head!"
+title: Sahil's Science Blog
+description: This is a blog and catalog of all things interesting to my mind! Themes all relate to technology 
+  and science - ranging from Artificial Intelligence to Nanotechnology with maths and biology in between.
 keywords: 'jekyll,technology,science,blog,AI,art,nano,neural networks, machine learning'
 author:
   name: Sahil Dawka
@@ -48,9 +49,9 @@ author:
     - name: vk
       url:
 home:
-  section1: <h1>Hello, Awesome World!</h1>
-  section2: <h2>Awe is my favourite emotion, and I catalog some of it <a href="#social">here</a>.</h2>
-  section3: <h3>*<em>Still under construction </em>* .. have a look at my <a href="/cv.html">CV</a>?</h3>
+  section1: <h1>S.S.B</h1>
+  section2: <h2>Thank you for visiting! </h2>
+  section3: <h3> *<em>Still under construction </em>* </h3>
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
