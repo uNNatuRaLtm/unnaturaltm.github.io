@@ -1,0 +1,100 @@
+body {
+	background-color: #333;
+}
+#rbanner{
+	margin-left: 30%;
+}
+
+#top{
+	width: 100%;
+	height: 15%;
+	background-color: rgb(0,79,149);
+}
+#top-mid{
+	width: 100%;
+	height: 7%;
+	background-color: rgb(0,35,85);
+}
+#mid{
+	width: 100%;
+	height: 65%;
+	background-color: rgb(250,255,255);
+}
+#bottom{
+	width: 100%;
+	height: 10%;
+	background-color: rgb(0,79,149);
+}
+#lmenu{
+	width: 16%;
+	height: 100%;
+	background-color: rgb(0,79,149);
+	float: left;
+}
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.filter{
+	height: 92%;
+	float: right;
+  background-color: rgb(0,79,149);
+	border-style: solid;
+	border-width: 2px;
+	border-color: #333;
+	width: 10%;
+	margin-right: 1%;
+	position: relative;
+}
+a>span{ 
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  z-index: 1;
+
+  /* fixes overlap error in IE7/8, 
+     make sure you have an empty gif */
+  background-image: url('empty.gif');
+}  
+
+p {
+	font-style: solid;
+	font-family: roboto;
+	color: white;
+	text-align: center;
+	z-index: 2;
+}
+p :clicked {
+	color: green;
+}
+
+
+
+
+#fcon{
+	float: right;
+	width: 84%;
+}
+
+iframe{
+	width: 100%;
+	height: 100%;
+}
+
+
+#lmenu > p{
+	font: roboto;
+	color: white;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	margin-top: 1%;
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+
+}
