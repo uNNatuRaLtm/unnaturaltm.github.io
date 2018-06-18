@@ -1,0 +1,33 @@
+.wrapper > div {
+    padding: 1.5em;
+    background: #fff;
+    border-bottom: 1px solid black;
+}
+
+div > iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper > div:nth-child(3n){
+    background:#ddd;
+}
+.wrapper > div:nth-child(3n+1){
+    justify-self: center;
+   
+}
+.wrapper > div:nth-child(3n+2){
+    background: #eee;
+    padding: 2.2em;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 2fr 3fr 5fr;
+    grid-auto-rows: minmax(100px,auto);
+
+}
+img{
+    max-height: 80px;
+    max-width: 100%;
+}
